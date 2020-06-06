@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% load static %}
+<<<<<<< HEAD
+=======
+{% load wagtailcore_tags %}
+>>>>>>> 64b6e3957d1e08872bd629ae2083cd4d763c2798
+
+{% block body_class %}template-homepage{% endblock %}
+
+{% block extra_css %}
+
+{% comment %}
+Delete the line below if you're just getting started and want to remove the welcome screen!
+{% endcomment %}
+<link rel="stylesheet" href="{% static 'css/welcome_page.css' %}">
+{% endblock extra_css %}
+
+{% block content %}
+<<<<<<< HEAD
+
+{% comment %}
+Delete the line below if you're just getting started and want to remove the welcome screen!
+{% endcomment %}
+{% include 'home/welcome_page.html' %}
+=======
+    {{ page.body | richtext }}
+{% comment %}
+Delete the line below if you're just getting started and want to remove the welcome screen!
+{% endcomment %}
+
+>>>>>>> 64b6e3957d1e08872bd629ae2083cd4d763c2798
+
+{% endblock content %}
