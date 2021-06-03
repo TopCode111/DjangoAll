@@ -14,3 +14,4 @@ virtualenv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 ```
+# 3.SaaS APP(running on the AWS Elastic Beanstalk)
